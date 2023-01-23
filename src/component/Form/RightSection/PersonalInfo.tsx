@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import CommonComponent from "../../../CommonComponent/CommonComponent";
+import CommonComponent from "../../CommonComponent/CommonComponent";
 import TextField from "@material-ui/core/TextField";
 import { PersonalInfoInterfaces } from "src/interfaces/personalInfoInterfaces";
 const useStyles = makeStyles((theme) => ({

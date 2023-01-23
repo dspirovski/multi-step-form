@@ -1,10 +1,10 @@
 import { makeStyles } from "@material-ui/core/styles";
 import useForm from "src/hooks/useForm";
 import LeftSection from "./LeftSection/LeftSection";
-import FinishingUp from "./RightSection/Forms/FinishingUp";
-import PersonalInfo from "./RightSection/Forms/PersonalInfo";
-import PickAddOns from "./RightSection/Forms/PickAddOns";
-import SelectPlan from "./RightSection/Forms/SelectPlan";
+import FinishingUp from "./RightSection/FinishingUp";
+import PersonalInfo from "./RightSection/PersonalInfo";
+import PickAddOns from "./RightSection/PickAddOns";
+import SelectPlan from "./RightSection/SelectPlan";
 import Button from "@material-ui/core/Button";
 import { FormEvent, useState } from "react";
 import { FormDataInterfaces } from "src/interfaces/formData";
