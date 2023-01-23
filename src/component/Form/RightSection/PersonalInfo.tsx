@@ -36,7 +36,7 @@ const PersonalInfo = ({
     >
       <>
         <TextField
-          // required
+          required
           inputProps={{ style: { fontSize: 14 } }} // font size of input text
           InputLabelProps={{ style: { fontSize: 14, height: 12, margin: 0 } }} // font size of input label
           label="name"
@@ -47,7 +47,7 @@ const PersonalInfo = ({
           onChange={(event) => updateFields({ firstName: event.target.value })}
         />
         <TextField
-          // required
+          required
           className={classes.root}
           inputProps={{ style: { fontSize: 12 } }} // font size of input text
           InputLabelProps={{
@@ -61,7 +61,7 @@ const PersonalInfo = ({
           onChange={(event) => updateFields({ email: event.target.value })}
         />
         <TextField
-          // required
+          required
           className={classes.root}
           inputProps={{ style: { fontSize: 12 } }} // font size of input text
           InputLabelProps={{ style: { fontSize: 14, height: 12, margin: 0 } }} // font size of input label
