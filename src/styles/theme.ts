@@ -11,7 +11,7 @@ const theme = createTheme({
   },
 
   typography: {
-    // fontFamily: "Poppins",
+    fontFamily: "Ubuntu",
 
     body1: {
       fontSize: 35,
