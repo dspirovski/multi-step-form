@@ -11,7 +11,7 @@ Receive form validation messages if:
 - a field has been missed;
 - the email address is not formatted correctly.
 
-This project was made with React JS and Material UI. 
+This project was made with TypeScript, React JS and Material UI. 
 
 This project is available on Vercel:
 
