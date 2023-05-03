@@ -18,6 +18,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+ * The root component of the application.
+ * @function
+ * @returns {JSX.Element} The root component of the application.
+ */
+
 const App = () => {
   const classes = useStyles();
 

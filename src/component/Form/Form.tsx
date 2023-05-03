@@ -75,6 +75,13 @@ const INITIAL_DATA: FormDataInterfaces = {
   addOns: [],
   addOnsPrice: [],
 };
+
+/**
+ * A multi-step form component.
+ * @function
+ * @returns {JSX.Element} The multi-step form component.
+ */
+
 const Form = () => {
   const classes = useStyles();
   const [data, setData] = useState(INITIAL_DATA);

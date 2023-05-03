@@ -1,5 +1,12 @@
 import { ReactElement, useState } from "react";
 
+/**
+ * A custom React hook for managing a multi-step form.
+ * @function
+ * @param {ReactElement[]} steps - An array of React elements representing each step of the form.
+ * @returns {Object} An object containing properties and methods for managing the form state.
+ */
+
 const useForm = (steps: ReactElement[]) => {
   const [stepIndex, setStepIndex] = useState(0);
 

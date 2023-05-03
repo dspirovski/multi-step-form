@@ -15,6 +15,18 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+
+A component that displays the selected plan, picked add-ons, and the total price.
+@param {Object} data - An object containing the plan type, period, price, add-ons, and add-ons price.
+@param {string} data.planType - The type of the selected plan.
+@param {string} data.planPeriod - The period of the selected plan.
+@param {string} data.planPrice - The price of the selected plan.
+@param {Array<string>} data.addOns - An array of strings containing the names of the selected add-ons.
+@param {Array<string>} data.addOnsPrice - An array of strings containing the prices of the selected add-ons.
+@returns {JSX.Element} A JSX element that displays the selected plan, picked add-ons, and the total price.
+*/
+
 const FinishingUp = ({ data }: FinishingUpInterfaces) => {
   const classes = useStyles();
 

@@ -90,6 +90,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+ * A component that displays a list of steps, including a number, label, and name for each step.
+ *
+ * @param {Object} props - The component props.
+ * @param {number} props.stepIndex - The index of the currently active step.
+ * @returns {JSX.Element} The rendered component.
+ */
+
 const Steps = ({ stepIndex }: StepsProps) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("xs"));

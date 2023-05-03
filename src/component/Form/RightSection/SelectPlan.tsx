@@ -112,6 +112,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+
+A component to select a plan type and period.
+@param {SelectPlanProps} props - The props object containing planType and updateFields.
+@returns {JSX.Element} - A React component representing the SelectPlan component.
+**/
+
 const SelectPlan = ({ planType, updateFields }: SelectPlanProps) => {
   const classes = useStyles();
 

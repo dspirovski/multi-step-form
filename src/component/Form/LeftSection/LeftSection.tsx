@@ -26,6 +26,14 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
 }));
+/**
+ * A component that displays the left section of a multi-step form,
+ * including a background image and a list of steps.
+ *
+ * @param {Object} props - The component props.
+ * @param {number} props.stepIndex - The index of the currently active step.
+ * @returns {JSX.Element} The rendered component.
+ */
 
 const LeftSection = ({ stepIndex }: LeftSectionProps) => {
   const theme = useTheme();

@@ -21,6 +21,17 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+
+Renders a component for collecting personal information such as name, email, and phone number
+@param {object} props - The props object
+@param {string} props.firstName - The first name of the user
+@param {string} props.email - The email address of the user
+@param {string} props.phoneNumber - The phone number of the user
+@param {function} props.updateFields - The function to update the fields
+@returns {JSX.Element} - The JSX element representing the PersonalInfo component
+*/
+
 const PersonalInfo = ({
   firstName,
   email,

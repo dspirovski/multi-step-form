@@ -39,6 +39,17 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+ * A reusable component that displays a header and sub-header
+ * above its children.
+ *
+ * @param {Object} props - The component props.
+ * @param {React.ReactNode} props.children - The children to render inside the component.
+ * @param {string} props.header - The header text to display.
+ * @param {string} props.subHeader - The sub-header text to display.
+ * @returns {JSX.Element} The rendered component.
+ */
+
 const CommonComponent = ({
   children,
   header,

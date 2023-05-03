@@ -40,6 +40,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+
+Renders a component to pick add-ons for gaming experience.
+@param {Object} props - The props object.
+@param {function} props.updateFields - The function to update the state with selected add-ons.
+**/
+
 const PickAddOns = ({ updateFields }: PickAddonsProps) => {
   const classes = useStyles();
 
